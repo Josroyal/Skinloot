@@ -1,0 +1,11 @@
+# The following commands are for windows and to use on the terminal
+#  (mkdir myproject_env) to create a folder called myproject_env
+# (cd myproject_env)  to enter the folder
+# (python -m venv dbp10) to create a virtual environment called dbp10 inside the folder
+# (.\dbp10\Scripts\Activate.ps1) to activate the virtual environment
+# (pip install psycopg2-binary) to install psycopg2-binary
+# (pip freeze > lista.txt) to see the installed packages and save them in a file called lista.txt
+# ( pip install -r lista.txt) to install the packages from the file lista.txt in case you need to install them in another computer
+# the file "hola.py" is the file that contains the code to connect to the database and should be in the same folder as the virtual environment
+# To create a python file in the virtual environment folder, you can use the command (New-Item filename.py ) in the terminal
+# primary serial key is the id of the table and it is created automatically
